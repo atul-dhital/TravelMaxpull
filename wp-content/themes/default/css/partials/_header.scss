@@ -1,0 +1,41 @@
+.page__home {
+  background: linear-gradient(0deg, #f5f4f1, #f5f4f1), #ffffff;
+}
+.header {
+  margin: 0 auto;
+  background-color: $primary-color;
+  @media screen and (max-width: 1024px) {
+    display: none;
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+    .logo__container {
+      margin-top: 18px;
+      margin-bottom: 18px;
+    }
+  }
+}
+.primaryNav {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  align-items: center;
+  list-style: disc;
+  color: $White;
+  a {
+    color: $White;
+  }
+  li::before {
+    content: "\travelmax";
+    color: $primary-color;
+    font-weight: bold;
+    display: inline-block;
+    width: 20px;
+    margin-left: 10px;
+  }
+  li:first-child {
+    list-style: none;
+  }
+}

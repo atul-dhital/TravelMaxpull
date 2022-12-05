@@ -1,0 +1,132 @@
+.dream {
+  background-image: url(uploads/dreamback.png);
+  height: 519px;
+  position: relative;
+  margin-top: 90px;
+  padding: 20px 20px 20px 20px;
+  @media #{$tablet} {
+    padding: 20px 10px 20px 10px;
+    height: auto;
+    flex-direction: column;
+    gap: 20px;
+  }
+  > .container {
+    background-image: url(uploads/dreamback.png);
+    height: 479px;
+    border: 1px dashed $White;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    @media #{$tablet} {
+      gap: 10px;
+      max-width: 100%;
+      height: auto;
+      padding: 10px 0px 0px 0px;
+    }
+    h2 {
+      font-family: $primary-family;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 60px;
+      line-height: 60px;
+      color: $White;
+      strong {
+        background-image: url(uploads/strong.svg);
+      }
+    }
+    p {
+      font-family: $alt-family;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 32px;
+      /* or 160% */
+
+      text-align: center;
+
+      color: $White;
+      font-family: $alt-family;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 32px;
+      /* or 160% */
+
+      text-align: center;
+
+      color: $White;
+      @media #{$tablet} {
+        max-width: 100%;
+        height: auto;
+        padding: 10px 10px 10px 10px;
+      }
+    }
+    span {
+      font-family: $primary-family;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 30px;
+      line-height: 40px;
+      text-align: center;
+      color: $White;
+    }
+    .dream__button {
+      margin-top: 35px;
+      padding: 6px 6px 6px 6px;
+      width: 407px;
+      height: 80px;
+      background:$White;
+      border: 1px solid rgba(75, 98, 107, 0.25);
+      box-shadow: 0px 50px 40px -10px rgba(20, 40, 47, 0.6);
+      border-radius: 60px;
+      .dream__button--border {
+        border: 1px solid;
+        width: 390px;
+        height: 68px;
+        border-radius: 60px;
+        border: 1px dashed #c27047;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+      }
+      .icon {
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        stroke-width: 0;
+        stroke: currentColor;
+        fill: currentColor;
+      }
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      @media #{$tablet} {
+        max-width: 50%;
+        margin: 10px 10px 20px 10px;
+      }
+      @media #{$phone} {
+        max-width: 50%;
+        font-size: 50px;
+        height: auto;
+      }
+    }
+    button {
+      font-family: $alt-family;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 32px;
+      text-align: center;
+      color: $primary-color;
+      padding-left: 20px;
+      @media #{$phone} {
+        max-width: 100%;
+        font-size: 10px;
+        height: auto;
+      }
+    }
+  }
+}
