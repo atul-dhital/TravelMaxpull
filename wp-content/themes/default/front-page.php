@@ -25,43 +25,43 @@ the_post();
                     <button>Your next trip</button>
                 </div>
             </div>
-            <div class="hero__slider">
-                <div class="hero__slide video1">
-                    <div class="play">
-                        <svg class="icon icon-play_icon">
-                            <use xlink:href="#icon-play_icon"></use>
-                        </svg>
-                        <span>play
-                            <br>
-                            <strong>2:53</strong>
-                        </span>
-                    </div>
-                    <h3>
-                        LIst of easy treak for the first timer's1
-                    </h3>
+        </div>
+        <div class="hero__slider">
+            <div class="hero__slide video1">
+                <div class="play">
+                    <svg class="icon icon-play_icon">
+                        <use xlink:href="#icon-play_icon"></use>
+                    </svg>
+                    <span>play
+                        <br>
+                        <strong>2:53</strong>
+                    </span>
                 </div>
-                <div class="hero__slide video2">
-                    <div class="play">
-                        <svg class="icon icon-play_icon">
-                            <use xlink:href="#icon-play_icon"></use>
-                        </svg>
-                        <span>play</span>
-                    </div>
-                    <h3>
-                        LIst of easy treak for the first timer's1
-                    </h3>
+                <h3>
+                    LIst of easy treak for the first timer's1
+                </h3>
+            </div>
+            <div class="hero__slide video2">
+                <div class="play">
+                    <svg class="icon icon-play_icon">
+                        <use xlink:href="#icon-play_icon"></use>
+                    </svg>
+                    <span>play</span>
                 </div>
-                <div class="hero__slide video3">
-                    <div class="play">
-                        <svg class="icon icon-play_icon">
-                            <use xlink:href="#icon-play_icon"></use>
-                        </svg>
-                        <span>play</span>
-                    </div>
-                    <h3>
-                        LIst of easy treak for the first timer's1
-                    </h3>
+                <h3>
+                    LIst of easy treak for the first timer's1
+                </h3>
+            </div>
+            <div class="hero__slide video3">
+                <div class="play">
+                    <svg class="icon icon-play_icon">
+                        <use xlink:href="#icon-play_icon"></use>
+                    </svg>
+                    <span>play</span>
                 </div>
+                <h3>
+                    LIst of easy treak for the first timer's1
+                </h3>
             </div>
         </div>
     </section>
