@@ -3,68 +3,7 @@ get_header();
 the_post();
 ?>
 <main class="page__home">
-    <section class="hero">
-        <div class="container">
-            <div class="hero__content">
-                <div class="hero__offer">
-                    <p class="hero__offerTitle"><svg class="icon icon-surface931-2">
-                            <use xlink:href="#icon-surface931-2"></use>
-                        </svg>
-                        offering <span> 20% discount</span>on selected trip <svg class="icon icon-Vector-6">
-                            <use xlink:href="#icon-Vector-6"></use>
-                        </svg></p>
-                </div>
-                <div class="hero__title">
-                    <span>exploare beyound the</span>
-                    <h1 class="hero__heading">himalayas</h1>
-                </div>
-                <div class="hero__search" action="">
-                    <svg class="icon icon-finderIcon">
-                        <use xlink:href="#icon-finderIcon"></use>
-                    </svg>
-                    <button>Your next trip</button>
-                </div>
-            </div>
-        </div>
-        <div class="hero__slider">
-            <div class="hero__slide video1">
-                <div class="play">
-                    <svg class="icon icon-play_icon">
-                        <use xlink:href="#icon-play_icon"></use>
-                    </svg>
-                    <span>play
-                        <br>
-                        <strong>2:53</strong>
-                    </span>
-                </div>
-                <h3>
-                    LIst of easy treak for the first timer's1
-                </h3>
-            </div>
-            <div class="hero__slide video2">
-                <div class="play">
-                    <svg class="icon icon-play_icon">
-                        <use xlink:href="#icon-play_icon"></use>
-                    </svg>
-                    <span>play</span>
-                </div>
-                <h3>
-                    LIst of easy treak for the first timer's1
-                </h3>
-            </div>
-            <div class="hero__slide video3">
-                <div class="play">
-                    <svg class="icon icon-play_icon">
-                        <use xlink:href="#icon-play_icon"></use>
-                    </svg>
-                    <span>play</span>
-                </div>
-                <h3>
-                    LIst of easy treak for the first timer's1
-                </h3>
-            </div>
-        </div>
-    </section>
+  
     <section class="value">
         <div class="container">
             <h2 class="value__heading">Our values above everything</h2>
