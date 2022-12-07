@@ -354,6 +354,6 @@ the_post();
                 </div>
             </div>
     </section>
-    <?php include('modules/flex-content/flex-content.php') ?>
+    <?php include('modules/flex-content/flex-content.php')?>
 </main>
 <?php get_footer(); ?>
