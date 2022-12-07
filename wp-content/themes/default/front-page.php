@@ -263,28 +263,6 @@ the_post();
                         </div>
                     </div>
                 </div>
-                <div class="service__item">
-                    <figure class="service__image">
-                        <img class="header__image" src="<?php echo get_template_directory_uri() ?>/uploads/service.jpeg" alt="Logo of Website" />
-                    </figure>
-                    <div class="service__content">
-                        <div class="service__price">
-                            <a href="#" class="service-box">usd 1,500</a>
-                            <a href="#" class="service-box trip">New Trip</a>
-                        </div>
-                        <h3>Everest Base Camp Trek via Gokyo Lakes</h3>
-                        <ul class="service__package-navigation">
-                            <li>12days</li>
-                            <li>Setrenuous</li>
-                            <li>Trekking</li>
-                        </ul>
-                        <p class="service__info">Annapurna Circuit Trekking is a whole trek; it is your trek; it is the trek that the National
-                            Geographic has enlisted as the world’s best. Annapurna Circuit Trekking is not ...</p>
-                        <div class="service__button">
-                            <button>view details</button>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
@@ -302,9 +280,9 @@ the_post();
             </div>
         </div>
     </section>
-    <section class="review">
+    <section class="testimonial">
         <div class="container">
-            <div class="review__heading">
+            <div class="testimonial__heading">
                 <div class="star">
                     <svg class="icon icon-Vector-7">
                         <use xlink:href="#icon-Vector-7"></use>
@@ -324,7 +302,7 @@ the_post();
                 </div>
                 <h2>All-Star adventure experince!</h2>
             </div>
-            <div class="review__website">
+            <div class="testimonial__website">
                 <ul>
                     <li> <img class="header__image" src="<?php echo get_template_directory_uri() ?>/uploads/truspilot.svg" alt="trustpilot" />
                     </li>
@@ -334,8 +312,8 @@ the_post();
                     </li>
                 </ul>
             </div>
-            <div class="review_content">
-                <div class="review__item">
+            <div class="testimonial_content">
+                <div class="testimonial__item">
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error necessitatibus fugit id itaque,
                         sint in aut incidunt optio eos voluptatibus saepe repellat temporibus beatae suscipit facere
                         porro quo possimus esse?</p>
@@ -355,7 +333,7 @@ the_post();
                     <span>John Shrestha</span><br>
                     <strong>Everest Basecamp,terk</strong>
                 </div>
-                <div class="review__item">
+                <div class="testimonial__item">
                     <p>We aspire to be the world’s most trustable and progressive travel management company.</p>
                     <div class="star"><svg class="icon icon-Vector-7">
                             <use xlink:href="#icon-Vector-7"></use>
@@ -371,7 +349,7 @@ the_post();
                     <span>John Shrestha</span><br>
                     <strong>Everest Basecamp,terk</strong>
                 </div>
-                <div class="review__item">
+                <div class="testimonial__item">
                     <img class="header__image" src="<?php echo get_template_directory_uri() ?>/uploads/review.jpeg" alt="tourradar" />
                 </div>
             </div>
