@@ -3,7 +3,57 @@ get_header();
 the_post();
 ?>
 <main class="page__home">
-  
+<section class="hero">
+        <div class="container">
+            <div class="hero__content">
+                <div class="hero__offer">
+                    <p class="hero__offerTitle">
+                        <svg class="icon icon-surface931-2">
+                            <use xlink:href="#icon-surface931-2"></use>
+                        </svg>
+                        offering <span> 20% discount</span>on selected trip
+                        <svg class="icon icon-Vector-6">
+                            <use xlink:href="#icon-Vector-6"></use>
+                        </svg>
+                    </p>
+                </div>
+                <div class="hero__title">
+                    <span>exploare beyound the</span>
+                    <h1 class="hero__heading">himalayas</h1>
+                </div>
+                <div class="hero__search">
+                    <svg class="icon icon-finderIcon">
+                        <use xlink:href="#icon-finderIcon"></use>
+                    </svg>
+                    <input type="text" class="hero__searchPlace" placeholder="Your Next Trip">
+                    </input>
+                </div>
+            </div>
+        </div>
+        <div class="hero__slider">
+            <div class="hero__slide" style="background-image: url('<?php echo get_template_directory_uri(); ?>/uploads/video1.jpeg')">
+                <span class="hero__mask"></span>
+                <div class="hero__innertext">
+                    <p>Play Video <br><strong>2:53</strong></p>
+                    <h3 class="hero__innertitle">List of easy trek for the first timers</h3>
+                </div>
+            </div>
+            <div class="hero__slide" style="background-image: url('<?php echo get_template_directory_uri(); ?>/uploads/video1.jpeg')">
+                <span class="hero__mask"></span>
+                <div class="hero__innertext">
+                    <p>Play Video <br><strong>2:53</strong></p>
+                    <h3 class="hero__innertitle">List of easy trek for the first timers’</h3>
+                </div>
+            </div>
+            <div class="hero__slide" style="background-image: url('<?php echo get_template_directory_uri(); ?>/uploads/video1.jpeg')">
+                <span class="hero__mask"></span>
+                <div class="hero__innertext">
+                    <p>Play Video <br><strong>2:53</strong></p>
+                    <h3 class="hero__innertitle">List of easy trek for the first timers’</h3>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="value">
         <div class="container">
             <h2 class="value__heading">Our values above everything</h2>
