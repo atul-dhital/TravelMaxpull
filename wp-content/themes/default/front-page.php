@@ -3,64 +3,53 @@ get_header();
 the_post();
 ?>
 <main class="page__home">
-    <section class="hero">
+<section class="hero">
         <div class="container">
             <div class="hero__content">
                 <div class="hero__offer">
-                    <p class="hero__offerTitle"><svg class="icon icon-surface931-2">
+                    <p class="hero__offerTitle">
+                        <svg class="icon icon-surface931-2">
                             <use xlink:href="#icon-surface931-2"></use>
                         </svg>
-                        offering <span> 20% discount</span>on selected trip <svg class="icon icon-Vector-6">
+                        offering <span> 20% discount</span>on selected trip
+                        <svg class="icon icon-Vector-6">
                             <use xlink:href="#icon-Vector-6"></use>
-                        </svg></p>
+                        </svg>
+                    </p>
                 </div>
                 <div class="hero__title">
                     <span>exploare beyound the</span>
                     <h1 class="hero__heading">himalayas</h1>
                 </div>
-                <div class="hero__search" action="">
+                <div class="hero__search">
                     <svg class="icon icon-finderIcon">
                         <use xlink:href="#icon-finderIcon"></use>
                     </svg>
-                    <button>Your next trip</button>
+                    <input type="text" class="hero__searchPlace" placeholder="Your Next Trip">
+                    </input>
                 </div>
             </div>
-            <div class="hero__slider">
-                <div class="hero__slide video1">
-                    <div class="play">
-                        <svg class="icon icon-play_icon">
-                            <use xlink:href="#icon-play_icon"></use>
-                        </svg>
-                        <span>play
-                            <br>
-                            <strong>2:53</strong>
-                        </span>
-                    </div>
-                    <h3>
-                        LIst of easy treak for the first timer's1
-                    </h3>
+        </div>
+        <div class="hero__slider">
+            <div class="hero__slide" style="background-image: url('<?php echo get_template_directory_uri(); ?>/uploads/video1.jpeg')">
+                <span class="hero__mask"></span>
+                <div class="hero__innertext">
+                    <p>Play Video <br><strong>2:53</strong></p>
+                    <h3 class="hero__innertitle">List of easy trek for the first timers</h3>
                 </div>
-                <div class="hero__slide video2">
-                    <div class="play">
-                        <svg class="icon icon-play_icon">
-                            <use xlink:href="#icon-play_icon"></use>
-                        </svg>
-                        <span>play</span>
-                    </div>
-                    <h3>
-                        LIst of easy treak for the first timer's1
-                    </h3>
+            </div>
+            <div class="hero__slide" style="background-image: url('<?php echo get_template_directory_uri(); ?>/uploads/video1.jpeg')">
+                <span class="hero__mask"></span>
+                <div class="hero__innertext">
+                    <p>Play Video <br><strong>2:53</strong></p>
+                    <h3 class="hero__innertitle">List of easy trek for the first timers’</h3>
                 </div>
-                <div class="hero__slide video3">
-                    <div class="play">
-                        <svg class="icon icon-play_icon">
-                            <use xlink:href="#icon-play_icon"></use>
-                        </svg>
-                        <span>play</span>
-                    </div>
-                    <h3>
-                        LIst of easy treak for the first timer's1
-                    </h3>
+            </div>
+            <div class="hero__slide" style="background-image: url('<?php echo get_template_directory_uri(); ?>/uploads/video1.jpeg')">
+                <span class="hero__mask"></span>
+                <div class="hero__innertext">
+                    <p>Play Video <br><strong>2:53</strong></p>
+                    <h3 class="hero__innertitle">List of easy trek for the first timers’</h3>
                 </div>
             </div>
         </div>
@@ -274,28 +263,6 @@ the_post();
                         </div>
                     </div>
                 </div>
-                <div class="service__item">
-                    <figure class="service__image">
-                        <img class="header__image" src="<?php echo get_template_directory_uri() ?>/uploads/service.jpeg" alt="Logo of Website" />
-                    </figure>
-                    <div class="service__content">
-                        <div class="service__price">
-                            <a href="#" class="service-box">usd 1,500</a>
-                            <a href="#" class="service-box trip">New Trip</a>
-                        </div>
-                        <h3>Everest Base Camp Trek via Gokyo Lakes</h3>
-                        <ul class="service__package-navigation">
-                            <li>12days</li>
-                            <li>Setrenuous</li>
-                            <li>Trekking</li>
-                        </ul>
-                        <p class="service__info">Annapurna Circuit Trekking is a whole trek; it is your trek; it is the trek that the National
-                            Geographic has enlisted as the world’s best. Annapurna Circuit Trekking is not ...</p>
-                        <div class="service__button">
-                            <button>view details</button>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
@@ -313,9 +280,9 @@ the_post();
             </div>
         </div>
     </section>
-    <section class="review">
+    <section class="testimonial">
         <div class="container">
-            <div class="review__heading">
+            <div class="testimonial__heading">
                 <div class="star">
                     <svg class="icon icon-Vector-7">
                         <use xlink:href="#icon-Vector-7"></use>
@@ -335,7 +302,7 @@ the_post();
                 </div>
                 <h2>All-Star adventure experince!</h2>
             </div>
-            <div class="review__website">
+            <div class="testimonial__website">
                 <ul>
                     <li> <img class="header__image" src="<?php echo get_template_directory_uri() ?>/uploads/truspilot.svg" alt="trustpilot" />
                     </li>
@@ -345,8 +312,8 @@ the_post();
                     </li>
                 </ul>
             </div>
-            <div class="review_content">
-                <div class="review__item">
+            <div class="testimonial_content">
+                <div class="testimonial__item">
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error necessitatibus fugit id itaque,
                         sint in aut incidunt optio eos voluptatibus saepe repellat temporibus beatae suscipit facere
                         porro quo possimus esse?</p>
@@ -366,7 +333,7 @@ the_post();
                     <span>John Shrestha</span><br>
                     <strong>Everest Basecamp,terk</strong>
                 </div>
-                <div class="review__item">
+                <div class="testimonial__item">
                     <p>We aspire to be the world’s most trustable and progressive travel management company.</p>
                     <div class="star"><svg class="icon icon-Vector-7">
                             <use xlink:href="#icon-Vector-7"></use>
@@ -382,11 +349,11 @@ the_post();
                     <span>John Shrestha</span><br>
                     <strong>Everest Basecamp,terk</strong>
                 </div>
-                <div class="review__item">
+                <div class="testimonial__item">
                     <img class="header__image" src="<?php echo get_template_directory_uri() ?>/uploads/review.jpeg" alt="tourradar" />
                 </div>
             </div>
     </section>
-    <?php include('modules/flex-content/flex-content.php') ?>
+    <?php include('modules/flex-content/flex-content.php')?>
 </main>
 <?php get_footer(); ?>
